@@ -6,7 +6,7 @@ function semRetorno(...args: string[]): void {
 // de forma natural é definido
 
 // modules modes, posso reescrever variaveis
-export const pessoa = {
+ const pessoa = {
   nome: "Fabricio",
   sobrenome: "Viana",
 
@@ -14,3 +14,6 @@ export const pessoa = {
     console.log(this.nome, this.sobrenome);
   }
 };
+
+// Module mode
+export default 1;

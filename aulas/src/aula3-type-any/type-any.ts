@@ -7,3 +7,5 @@ function showMessage(msg: any) {
 
 // any aceita todo tipo de valor
 
+// Module mode
+export default 1;

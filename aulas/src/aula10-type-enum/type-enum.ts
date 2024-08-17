@@ -31,3 +31,6 @@ function escolhaCores(cors:Cores): void {
 }
 
 escolhaCores(Cores.ROXO);
+
+// Module mode
+export default 1;

@@ -2,7 +2,7 @@ let x;
 if (typeof x === 'undefined') x = 20;
 console.log(x);
 
-export function cretePerson(
+function cretePerson(
   firstName:string,
   lastName?: string
 ): {
@@ -15,7 +15,10 @@ export function cretePerson(
   }
 }
 
-export function squareOf(x:any) { // number || null
+function squareOf(x:any) { // number || null
   if (typeof x === 'number') return x*x;
   return null;
 }
+
+// Module mode
+export default 1;

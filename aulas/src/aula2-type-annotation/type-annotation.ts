@@ -30,3 +30,6 @@ function soma(x: number,y: number): number {
 }
 // tipo de arrow function no ts
 const soma2: (x: number, y:number) => number = (x,y) => x+y;
+
+// Module mode
+export default 1;

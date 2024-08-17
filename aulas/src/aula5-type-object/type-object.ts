@@ -20,3 +20,5 @@ const objetoB: {
   chaveA: 'valorA',
   chaveB: 'valorB'
 }
+// Module mode
+export default 1;
